@@ -1,0 +1,68 @@
+/* Rule 1: Section styling - borders, padding, margin, border-radius */
+.section {
+  border: 2px solid #222;
+  padding: 16px;
+  margin: 18px 0;
+  border-radius: 10px;
+  background-color: #f8f9fa;
+}
+
+/* Rule 2: Label styling - font and color */
+.label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+/* Rule 3: Button styling */
+.action-button {
+  padding: 10px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.action-button:hover {
+  background-color: #0b5ed7;
+}
+
+/* Additional rules for consistency and visibility */
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.app-header h1 {
+  margin: 0 0 24px 0;
+  color: #1a1a1a;
+}
+
+.name-display {
+  font-size: 1.25rem;
+  color: #0d6efd;
+  margin: 0;
+}
+
+.custom-list {
+  margin: 0;
+  padding-left: 24px;
+  line-height: 1.6;
+}
+
+.button-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.click-message {
+  margin: 0;
+  font-style: italic;
+  color: #555;
+}
